@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.845);
+    color: rgba(248, 244, 244, 0.571);
+    padding: 30px ;
+}
+/* .btn{
+    padding: 0px 200px;
+} */
+.btn button{
+    width: 220px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: 200;
+    border: 3px solid #fff;
+    background-color: rgba(0, 0, 0, 0.831);
+    color: rgba(248, 244, 244, 0.571);
+    }
+    .bar{
+        font-size: 3rem;
+        font-weight: 200;
+    }
+    
+    .card1{
+        background-color: rgba(16, 73, 73, 0.788);
+        display: flex;
+        min-height: 100vh;
+        padding:5% ;
+        flex-wrap: wrap; 
+        
+    }
+    .pic{
+        flex: 1;
+    }
+    .pic img{
+        min-width: 100%;
+        height: 100%;
+        
+    }
+    .pic-about{
+    background-color: #fff;
+    height: 100%;
+    flex: 1;
+    width: 100%;
+    padding: 80px 50px;
+
+    }
+     .pic-about h3{
+        margin-top: 60px;
+        color: rgba(152, 19, 19, 0.957);
+        font-weight: 700;
+        font-size: 1.4rem;
+        word-spacing: 10px;
+        letter-spacing: 2px;
+    }
+
+    .pic-about h1{
+        margin-top: 10px;
+        font-weight: 500;
+        font-size: 5rem;
+        word-spacing: 10px;
+        word-wrap: break-word;
+        letter-spacing: 2px;
+        color: rgba(23, 43, 43, 0.788);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+    .pic-about p{
+        margin-top: 20px;
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+        word-spacing: 7px;
+        display:flex;
+        /* text-align: left; */
+    }
+     .pic-about button{
+           margin-top: 30px;
+           font-size: 1.4rem;
+           font-weight: 500;
+           padding: 15px;
+           width: 300px;
+           border:3px solid rgba(23, 43, 43, 0.788);
+           background-color: #fff;
+           color: rgba(23, 43, 43, 0.788)
+    }
+    
